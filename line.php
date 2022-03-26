@@ -15,7 +15,7 @@ if($arrJson['events'][0]['message']['text'] == "hi"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "สวัสดี User ID คุณคือ ".$arrJson['events'][0]['source']['userId']. "กรุณาคัดลอกข้อความนี้ ส่งมาที่ ไลน์ ส่วนตัวของ มิตร นะครับเพื่อลงทะเบียน";
+  $arrPostData['messages'][0]['text'] = "สวัสดี User ID คุณคือ ".$arrJson['events'][0]['source']['userId']. "กรุณาคัดลอกข้อความนี้ ส่งมาที่ ไลน์ ส่วนตัวของ มิตร นะครับเพื่อลงทะเบียน..0..";
 
 }else if($arrJson['events'][0]['message']['text'] == "ชื่ออะไร"){
   $arrPostData = array();
